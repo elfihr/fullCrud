@@ -17,9 +17,9 @@ useEffect  (() => {
 },[])
 
   return (
-    <section className='min-h-[80vh]'>
-      <h3>Home</h3>
-      <div>
+    <section className='min-h-[80vh] flex flex-col  items-center'>
+      <h3 className='text-3xl font-bold py-4'>Home</h3>
+      <div className='flex flex-wrap gap-4'>
         {posts.map(item => {
           return(
             <div>

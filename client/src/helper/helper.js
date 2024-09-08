@@ -1,14 +1,13 @@
 export const menuLinks = [
     {
         name:"Home",
-        href:"/"
+        href:"/",
+        class:"link"
     },
     {
         name:"About",
-        href:"/about"
+        href:"/about",
+        class:"link"
     },
-     {
-        name:"Login",
-        href:"/login"
-    }
+
 ]

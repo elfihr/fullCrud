@@ -12,10 +12,13 @@ const Navbar = () => {
         {menuLinks.map((link,index) => {
           return(
             <div key={index}>
-              <Link to={link.href}>{link.name}</Link>
+              <Link className={link.class} to={link.href}>{link.name}</Link>
             </div>
           )
         })}
+        <div>
+          <Link className='btn02 font-bold' to='/login'>Login</Link>
+        </div>
       </div>
     </nav>
   )
