@@ -22,7 +22,7 @@ useEffect  (() => {
       <div className='flex flex-wrap gap-4'>
         {posts.map(item => {
           return(
-            <div>
+            <div key={item.id}>
             <img className='w-60 h-40 shadow-2xl' src={item.img} alt={item.title}/>
               <h3>{item.title}</h3>
           </div>
